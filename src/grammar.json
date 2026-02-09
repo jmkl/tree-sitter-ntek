@@ -1,6 +1,6 @@
 {
   "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/grammar.schema.json",
-  "name": "stupid_config",
+  "name": "ntek",
   "rules": {
     "source_file": {
       "type": "REPEAT",
