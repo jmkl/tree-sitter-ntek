@@ -1,0 +1,40 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "highlights": "queries/highlights.scm",
+      "name": "ntek",
+      "camelcase": "Ntek",
+      "title": "Ntek",
+      "scope": "source.ntek",
+      "file-types": ["ntek"],
+      "injection-regex": "^ntek$",
+      "class-name": "TreeSitterNtek"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "ntek config",
+    "authors": [
+      {
+        "name": "jmkl",
+        "url": ""
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/tree-sitter/tree-sitter-ntek",
+      "funding": ""
+    }
+  },
+  "bindings": {
+    "c": false,
+    "go": false,
+    "java": false,
+    "node": false,
+    "python": false,
+    "rust": true,
+    "swift": false,
+    "zig": false
+  }
+}
