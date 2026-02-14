@@ -44,7 +44,7 @@ export default grammar({
 
     string: (_) => token(seq('"', repeat(choice(/[^"\\]/, /\\./)), '"')),
 
-    number: (_) => /\d+/,
+    number: (_) => /[0-9]+(\.[0-9]+)?/,
 
     boolean: (_) => choice("true", "false"),
 
